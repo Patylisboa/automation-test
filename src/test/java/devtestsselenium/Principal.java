@@ -28,14 +28,14 @@ public class Principal {
 	@Before
 	public void before() {
 		// aqui 'setamos' a proprieadade para indicar onde esta o driver
-		//System.setProperty("webdriver.chrome.driver", "C:/dev2/tools/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:/dev2/tools/chromedriver.exe");
 
 		// aqui criamos as opcoes para o chromedriver
 		ChromeOptions options = new ChromeOptions();
 
 		// entao adicionamos um argumento para executar os testes no modo headless
 		// ou seja o navegador nao ira aparecer na tela
-		options.addArguments("--headless");
+	//	options.addArguments("--headless");
 
 		// criamos um novo driver
 		driver = new ChromeDriver(options);
