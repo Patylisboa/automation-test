@@ -28,7 +28,7 @@ public class Principal {
 	@Before
 	public void before() {
 		// aqui 'setamos' a proprieadade para indicar onde esta o driver
-		System.setProperty("webdriver.chrome.driver", "C:/dev2/tools/chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:/dev2/tools/chromedriver.exe");
 
 		// aqui criamos as opcoes para o chromedriver
 		ChromeOptions options = new ChromeOptions();
